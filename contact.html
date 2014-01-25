@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Gulf Orient Seaways Ltd</title><!--ls:begin[stylesheet]-->
+<link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+<style type="text/css">
+
+body
+{
+  margin:0;
+  text-align:center;
+}
+
+.centerComponents
+{
+  margin:auto;
+  text-align:left;
+}
+
+#element1
+{
+  width:1135px;
+}
+
+#c1320406653662
+{
+  width:1135px;
+  min-height:780px;
+  height:auto !important;
+  height:780px;
+  display:inline;
+  float:left;
+}
+
+#c1320406653663
+{
+  width:1135px;
+  min-height:110px;
+  height:auto !important;
+  height:110px;
+  display:inline;
+  float:left;
+}
+
+</style>
+	<!--ls:end[stylesheet]--><!--ls:begin[meta-keywords]-->
+	<meta name="keywords" content="gulf oriend seaways ltd"> </meta>
+	<!--ls:end[meta-keywords]--><!--ls:begin[meta-description]-->
+	<meta name="description" content="gulf oriend seaways ltd"> </meta>
+	<!--ls:end[meta-description]--><!--ls:begin[stylesheet]-->
+	<link type="text/css" href="_themes/default/css/1_base/editor.css" rel="stylesheet">
+	<!--ls:end[stylesheet]--><!--ls:begin[stylesheet]-->
+	<link type="text/css" href="_themes/default/css/reset.css" rel="stylesheet">
+	<!--ls:end[stylesheet]--><!--ls:begin[stylesheet]-->
+	<link type="text/css" href="_themes/default/css/global.css" rel="stylesheet">
+	<!--ls:end[stylesheet]--><!--ls:begin[stylesheet]-->
+	<link type="text/css" href="_themes/default/css/screen-oh.css" rel="stylesheet">
+	<!--ls:end[stylesheet]--><!--ls:begin[stylesheet]-->
+	<link type="text/css" href="_themes/default/css/presearch.css" rel="stylesheet">
+	<!--ls:end[stylesheet]--><!--ls:begin[stylesheet]-->
+	<link type="text/css" href="_themes/default/css/presearch-ie.css" rel="stylesheet">
+	<!--ls:end[stylesheet]--><!--ls:begin[stylesheet]-->
+	<link type="text/css" href="_themes/default/css/scb-fbfeed.css" rel="stylesheet">
+	<!--ls:end[stylesheet]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/jquery/jquery-1_5_2_min.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/jquery/jquery-mousewheel.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/jquery/jquery-easing-1_3_min.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/jquery/jquery-stylish-select.min.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/jquery/jquery-colorbox_min.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/jquery/jquery-cycle-all_min_custom.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/custom-media.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/presearch/jquery.xml2json.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/presearch/jquery-query-string.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/presearch/jqueryCookie.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/presearch/predictiveSearch.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/presearch/predictiveSearchDetails.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/jsonlib.js"></script>
+	<!--ls:end[script]--><!--ls:begin[script]-->
+	<script type="text/javascript" src="_themes/default/js/facebook-api.js"></script>
+<!--ls:end[script]--><!--ls:begin[head-injection]--><!--ls:end[head-injection]--><!--ls:begin[script]--><!--ls:end[script]-->
+
+<!-- google map api  -->
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAEZxxxTlX6lOZdBINVsxn0KfCaUIzhzQ4&sensor=false">
+</script>
+
+<script>
+var dhakaOffice;
+var chittagongOffice;
+var khulnaOffice;
+var sylhetOffice;
+var map;
+var marker;
+
+function initialize()
+{
+	dhakaOffice=new google.maps.LatLng(23.734863,90.410559);
+	chittagongOffice = new google.maps.LatLng(22.324373,91.811723);
+	khulnaOffice = new google.maps.LatLng(22.817762,89.564526);
+	sylhetOffice = new google.maps.LatLng(24.663398,91.931828);
+	var mapProp = {
+		center:dhakaOffice,
+		zoom:14,
+		mapTypeId:google.maps.MapTypeId.ROADMAP
+	};
+	map=new google.maps.Map(document.getElementById("googleMap")
+	,mapProp);
+  
+	marker_dhaka=new google.maps.Marker({
+		position:dhakaOffice,
+		title:'Gulf Orient Seaways LTD. - Dhaka Office'
+	});
+	marker_chittagong=new google.maps.Marker({
+		position:chittagongOffice,
+		title:'Gulf Orient Seaways LTD. - Chittagong Office'
+	});
+	marker_khulna=new google.maps.Marker({
+		position:khulnaOffice,
+		title:'Gulf Orient Seaways LTD. - Khulna Office'
+	});
+	marker_sylhet=new google.maps.Marker({
+		position:sylhetOffice,
+		title:'Gulf Orient Seaways LTD. - Sylhet Office'
+	});
+	
+
+	marker_dhaka.setMap(map);
+	marker_chittagong.setMap(map);
+	marker_khulna.setMap(map);
+	marker_sylhet.setMap(map);
+
+	google.maps.event.addListener(marker_dhaka,'click',function() {
+		map.setZoom(16);
+		map.setCenter(marker_dhaka.getPosition());
+	});
+	google.maps.event.addListener(marker_chittagong,'click',function() {
+		map.setZoom(16);
+		map.setCenter(marker_chittagong.getPosition());
+	});
+	google.maps.event.addListener(marker_khulna,'click',function() {
+		map.setZoom(16);
+		map.setCenter(marker_khulna.getPosition());
+	});
+	google.maps.event.addListener(marker_sylhet,'click',function() {
+		map.setZoom(16);
+		map.setCenter(marker_sylhet.getPosition());
+	});
+	
+	
+  }
+  function clickOnDhaka(){
+	
+	map.setZoom(14);
+	map.setCenter(dhakaOffice);
+	}
+	
+	function clickOnChittagong(){
+	
+	map.setZoom(14);
+	map.setCenter(chittagongOffice);
+	}
+	function clickOnKhulna(){
+	
+	map.setZoom(14);
+	map.setCenter(khulnaOffice);
+	}
+	function clickOnSylhet(){
+	
+	map.setZoom(14);
+	map.setCenter(sylhetOffice);
+	}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+<!-- end google map api -->
+
+
+
+</head>
+
+<body><!--ls:begin[body]-->
+<div id="element1" class="centerComponents">
+	<div class="iw_component" id="c1320406653662">
+		<script type="text/javascript" src="_themes/default/js/jquery-config.js"></script>
+		<!--[if IE 7]><link rel="stylesheet" href="_themes/default/css/6_fixes/ie7.css" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="_themes/default/css/6_fixes/ie6.css" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><script type="text/javascript" src="_themes/default/js/jquery/jquery-DDbelatedPNG-0_0_8a_min.js"></script><script type="text/javascript">DD_belatedPNG.fix('img.pngfix');</script><![endif]--><body id="home">
+		<script type="text/javascript">document.body.className += "jsEnabled";</script>
+
+<div id="wrapper">
+<ul id="skipLinks">
+<li>
+<a title="Skip to main content" href="#main-content">Skip to main content</a>
+</li>
+<li>
+<a title="Skip to main navigation" href="#site-nav">Skip to main navigation</a>
+</li>
+<li>
+<a title="Skip to quick links" href="#site-quicklinks">Skip to quick links</a>
+</li>
+<li>
+<a title="Skip to site search" href="#site-search">Skip to site search</a>
+</li>
+<li>
+<a title="Skip to footer navigation" href="#footer">Skip to footer navigation</a>
+</li>
+</ul>
+<noscript>
+<div id="noscript">
+<p>Your experience will be greatly enhanced with JavaScript enabled in your browser's preferences.</p>
+</div>
+</noscript>
+<div class="clearfix" id="page">
+<div style="display:none" id="searchResults"></div>
+<div id="home-rotator">
+<ul>
+<li>
+<img width="1130" src="home_background/three.jpg" alt="Our results"><div class="slide-content">
+
+</div>
+</li>
+
+
+
+</ul>
+</div>
+<div id="header">
+<div class="image-replace" id="site-logo">
+<a href="index.html"><span></span></a>
+</div>
+
+<!--
+<div class="panel span3" id="site-topbar">
+<div class="content">
+<form  action="/en/search-result.html" method="get" name="gs" id="site-search">
+<fieldset>
+<input autocomplete="off" onKeyPress="doPredictiveSearch(this);" onClick="clearSearchText(this)" onBlur="resetSearchText(this)" onFocus="clearSearchText(this)" id="q" name="q" value="search" class="text isLabel" type="text"><input onClick="checkval()" value="" name="site-search-submit" class="submit" id="site-search-submit" type="button"><input style="display:none" id="hid" type="hidden"><input value="0" name="entqr" type="hidden"><input value="1" name="ud" type="hidden"><input value="date:D:L:d1" name="sort" type="hidden"><input value="xml_no_dtd" name="output" type="hidden"><input value="UTF-8" name="oe" type="hidden"><input value="UTF-8" name="ie" type="hidden"><input value="result_only" name="client" type="hidden"><input value="result_only" name="proxystylesheet" type="hidden"><input value="grp" name="site" type="hidden">
+</fieldset>
+</form>
+<div style="display:none" id="tempItem"></div>
+<div id="backgroundPopup"></div>
+<ul id="shares-ticker"></ul>
+</div>
+</div>
+-->
+
+
+
+</div>
+
+
+<div id="navbar">
+<div class="panel" id="site-nav">
+<div class="content">
+<ol class="nav drop-down ">
+<li class="first">
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="#">History</a>
+</li>
+<li>
+<a href="#">Services</a>
+<div class="wrapper">
+<ol class="panel ">
+<li class="faux-header">Services</li>
+<li >
+<ol>
+<li style="padding-left:2px;">
+<a href="#">General Shipping</a>
+</li>
+<li style="padding-left:2px;">
+<a href="#">Barge Service</a>
+</li>
+<li style="padding-left:2px;">
+<a href="#">Barge Owning</a>
+</li>
+<li style="padding-left:2px;">
+<a href="#">Container Operation</a>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<a href="#">Logistic</a>
+<div class="wrapper">
+<ol class="panel">
+<li class="faux-header">Logistic</li>
+<li >
+<ol>
+<li style="padding-left:2px;">
+<a href="#">ODD/DDC Logistics</a>
+</li>
+<li style="padding-left:2px;">
+<a href="#">Project Logistics</a>
+</li>
+<li style="padding-left:2px;">
+<a href="#">Road Transportation</a>
+</li>
+<li style="padding-left:2px;">
+<a href="#">Vessel Status</a>
+</li>
+</ol>
+</li>
+
+</li>
+
+</ol>
+</div>
+</li>
+<li>
+<a href="#">NGN Telecom</a>
+</li>
+<li>
+<a href="#">Photo Gallery</a>
+</li>
+<li>
+<a href="contact.html">Contact</a>
+</li>
+<li id="follow">
+<span class="left"><a href="news-and-media/social-media.html">Follow us  </a></span>
+<ol class="social-networks">
+<li>
+<a title="Facebook" target="_blank" href="#"><img alt="Follow us on Facebook" src="_themes/default/img/icons/icn_corp_facebook.gif"></a>
+</li>
+<li>
+<a title="Twitter" target="_blank" href="#"><img alt="Follow us on Twitter" src="_themes/default/img/icons/icn_corp_twitter.gif"></a>
+</li>
+<li>
+<a title="Linkedin" target="_blank" href="#"><img alt="Follow us on Linkedin" src="_themes/default/img/icons/icn_corp_linkedin.gif"></a>
+</li>
+</ol>
+</li>
+</ol>
+
+</div>
+</div>
+
+</div>
+<a id="main-content"></a>
+
+<div class="row">
+
+<div class="main">
+<div class="panel span3 extended" style="background: #FFF url('_themes/default/img/backgrounds/bg_panel-white_tile.gif') 0 bottom repeat-x;">
+<!--
+<iframe width="565" height="360" frameborder="0" 
+	scrolling="no" marginheight="0" marginwidth="0" 
+	src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=dhaka&amp;aq=&amp;sll=26.155438,86.308594&amp;sspn=25.709726,46.538086&amp;ie=UTF8&amp;hq=&amp;hnear=Dhaka,+Dhaka+Division,+Bangladesh&amp;t=m&amp;ll=23.709924,90.407181&amp;spn=0.027505,0.047207&amp;z=14&amp;iwloc=A&amp;output=embed">
+	</iframe>
+-->
+<div id="googleMap" style="width:570px;height:490px;"></div>
+<!--
+<p id="video"></p>
+</div>
+-->
+</div>
+
+
+
+<div class="panel span3 extended" style="background: #FFF url('_themes/default/img/backgrounds/bg_panel-white_tile.gif') 0 bottom repeat-x;">
+<div class="content">
+<h2>Contact Us</h2>
+<div>
+<form name="input" action="" method="post">
+<label for="email"><h3 style="color:#333;">Email </h3></label>
+<input type="text" name="email" size="30">
+<label for="subject"><br/><br/><h3 style="color:#333;">Subject <h3/></label>
+<input type="text" name="subject" size="30">
+<label for="message"><br/><br/><h3 style="color:#333;">Message<h3/></label>
+<textarea name="message" rows="20" cols="70">
+</textarea>
+<br/>
+<br/>
+<input type="submit" value="&nbsp;&nbsp;Submit&nbsp;&nbsp;">
+<br/>
+<br/>
+</form>
+</div>
+<div class="loader" id="map-module">
+</div>
+</div>
+</div>
+</div>
+<div class="sub" >
+<div class="panel extended" >
+<div class="content" >
+<h2 style="color:#62B651;" ><a href="#" onclick="clickOnDhaka();"><b>Dhaka Office</a></b></h2>
+<p style="color:#FFF;"><b>Skylard Point(6th floor)</b></p>
+<p style="color:#FFF; font-family: helvetica, arial, sans-serif;"> 175 Shahid Sayed Nazrul Islam Sharani <br/>Bijoy Nagar, Dhaka-1000</p>
+<p style="color:#F3F3F3;">
+	Tel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: +88-02-8391601-5<br/>
+	Fax &nbsp;&nbsp;&nbsp;&nbsp;: +88-02-9343058<br/>
+	e-mail&nbsp;&nbsp;:<br/>ngn@gulfseaways.com<br/>
+		  mushfiq@gulfseaways.com
+</p>
+
+</ul>
+</div>
+</div>
+<!--
+<div class="panel extended" style="background: #FFF url('_themes/default/img/backgrounds/bg_panel-white_tile.gif') 0 bottom repeat-x;">
+-->
+<div class="panel extended" >
+<div class="content" >
+<h2 style="color:#62B651;"><a href="#" onclick="clickOnChittagong();"><b>Chittagong Office</b></a></h2>
+<p style="color:#FFF;"><b>'M' Court-2(2nd Floor)</b></p>
+<p style="color:#FFF; font-family: helvetica, arial, sans-serif;"> 108, Agrabad Commercial Area <br/>Chittagong-4100</p>
+<p style="color:#F3F3F3;">
+	Cell &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: +88-01966625408<br/>
+	e-mail&nbsp;&nbsp;:<br/>ctg@gulfseaways.com<br/><br/><br/>
+</p>
+
+</ul>
+</div>
+</div>
+<div class="panel extended" >
+<div class="content" >
+<h2 style="color:#62B651;"><a href="#" onclick="clickOnKhulna();"><b>Khulna Office</b></a></h2>
+<p style="color:#FFF;"><b>142, Sir Iqbal Road</b></p>
+<p style="color:#FFF; font-family: helvetica, arial, sans-serif;"> Khulna-9100</p>
+<p style="color:#F3F3F3;">
+	Tel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: +88-04-1732669<br/>
+	Cell &nbsp;&nbsp;&nbsp;&nbsp;: +88-01926674603<br/>
+	e-mail&nbsp;&nbsp;:<br/>masum@gulfseaways.com<br/><br/><br/>
+</p>
+
+</ul>
+</div>
+</div>
+<div class="panel extended" >
+<div class="content" >
+<h2 style="color:#62B651;"><a href="#" onclick="clickOnSylhet();"><b>Sylhet Office</b></a></h2>
+<p style="color:#FFF;"><b>Shahjalal House</b></p>
+<p style="color:#FFF; font-family: helvetica, arial, sans-serif;"> Plabari Circle <br/>Fenchugonj, Sylhet</p>
+<p style="color:#F3F3F3;">
+	Cell &nbsp;&nbsp;&nbsp;&nbsp;: +88-01966625400<br/>
+	e-mail&nbsp;&nbsp;:<br/>project@gulfseaways.com<br/><br/><br/>
+</p>
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</body>
+
+
+</div><div class="iw_component" id="c1320406653663"><body id="home">
+<div id="wrapper">
+<div id="footer">
+<dl class="panel style1">
+<dt>Services</dt>
+<dd>
+<p>
+<a href="#">General Shipping</a>
+</p>
+<p>
+<a href="#">Barge Service</a>
+</p>
+<p>
+<a href="#">Barge Owning</a>
+</p>
+<p>
+<a href="#">Container Operation</a>
+</p>
+
+</dd>
+</dl>
+<dl class="panel style2">
+<dt>Logistic</dt>
+<dd>
+<p>
+<a href="#" target="_blank">ODD/ODC Logistic</a>
+</p>
+<p>
+<a href="#" target="_blank">Project Logistic</a>
+</p>
+<p>
+<a href="#" target="_blank">Road Transportation</a>
+</p>
+<p>
+<a href="#">Vessel Status</a>
+</p>
+
+</dd>
+</dl>
+<dl class="panel style1">
+<dt>Quick links</dt>
+<dd>
+<p>
+<a href="#">Online banking</a>
+</p>
+<p>
+<a href="#" target="_blank">Our videos</a>
+</p>
+<p>
+<a href="#">Download centre</a>
+</p>
+<p>
+<a href="#">Learning resources</a>
+</p>
+<p>
+<a href="#">FAQs</a>
+</p>
+</dd>
+</dl>
+<dl class="panel style2">
+<dt>Support Services</dt>
+<dd>
+<p>
+<a href="#">Oil and gas industry</a>
+</p>
+<p>
+<a href="#">Oil riggs movement</a>
+</p>
+<p>
+<a href="#">Petrolleum product transportation</a>
+</p>
+
+
+</dd>
+</dl>
+<dl class="panel style3">
+<dt class="social-networks">Follow us &nbsp;<a title="Follow us on Facebook" target="_blank" href="#"><img alt="Follow us on Facebook" src="_themes/default/img/icons/icn_corp_facebook.gif"></a>&nbsp;<a title="Follow us on Twitter" target="_blank" href="#"><img alt="Follow us on Twitter" src="_themes/default/img/icons/icn_corp_twitter.gif"></a>&nbsp;<a title="Follow us on Linkedin" target="_blank" href="#"><img alt="Follow us on Linkedin" src="_themes/default/img/icons/icn_corp_linkedin.gif"></a>
+</dt>
+<dd>
+<p>
+<a href="#" target="_blank" title="Follow us on Twitter">Twitter</a>
+</p>
+<p>
+<a href="#" target="_blank" title="Follow us on Facebook">Facebook</a>
+</p>
+<p>
+<a href="#" target="_blank" title="Follow us on Linkedin">Linkedin</a>
+</p>
+</dd>
+</dl>
+<dl class="panel style3">
+<dt>
+<a class="toggle selected" href="#">show/hide</a>&copy; Gulf Orient Seaways Ltd 2013
+</dt>
+<dd>
+<p>
+<a href="https://www.elance.com/s/taj30/" target="_blank" title="Visit DriptoSoft">www.driptosoft.com</a>
+</p>
+</dd>
+</dl>
+</div>
+</div>
+<script src="../_javascript/om_scgroup.js" type="text/javascript"></script><script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-21856546-1']);  _gaq.push(['_setDomainName', '.standardchartered.com']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+</body><script src="_themes/default/js/fbfeed.js" type="text/javascript"></script>
+</div></div><!--ls:end[body]--></body></html>
+<!-- Localized -->

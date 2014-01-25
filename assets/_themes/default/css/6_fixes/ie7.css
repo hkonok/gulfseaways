@@ -1,0 +1,98 @@
+/*clearfix*/
+#home-rotator ul,
+#home-rotator ul li,
+#hero-rotator ul,
+#hero-rotator ul li{overflow:hidden;}
+
+/*box model*/
+.jsEnabled #home-rotator ul li img{width:1128px;}
+.jsEnabled #hero-rotator ul li img{width:535px;}
+
+/*haslayout*/
+#site-breadcrumbs{zoom:1;}
+.tabbed-content{height: 1%;}
+.social-networks, .calendar-networks{zoom:1;}
+
+fieldset .field{height: 1%;}
+
+/*inline-block (default block level elements only)*/
+#noscript p {
+	zoom: 1;
+	display: inline;
+}
+
+.social-networks li, .calendar-networks li,
+#site-nav .nav li .social-networks li, #site-nav .nav li .calendar-networks li,
+#listed-articles .article{
+	zoom: 1;
+	display: inline;
+}
+
+.pagination-nav li{
+	zoom:1;
+	display:inline;
+	margin-right:0;
+}
+.pagination-nav .index li,
+.content fieldset #form-carousel .viewport li{zoom: 1;display: inline;}
+.pagination .pagination-nav .index ul{zoom:1;}
+
+.inline .newListSelected,
+.main .inline .newListSelected,
+.sub .inline .newListSelected,
+.white .inline .newListSelected{zoom: 1;display: inline;}
+
+#opening-hours li{zoom: 1;display: inline;}
+
+/*floats*/
+.social-networks a, .calendar-networks a,
+#site-nav .nav li .social-networks li a, #site-nav .nav li .calendar-networks li a{float:left;margin: 0 1px;}
+
+/*typography*/
+h2,
+.main .black h2,
+.sub .black h2,
+.main .black .faux-header,
+.sub .black .faux-header,
+.faux-header{position:relative;}
+
+h2 .toggle{margin-top: 0;}
+#footer .toggle{margin-top: -1px;}
+
+.cta,
+.links a{
+	background-position:right bottom;
+	display:inline-block;
+}
+.external span{background-position:right bottom;}
+.rss span,
+.pdf span{background-position:0 -16px;}
+.rss:active span,
+.pdf:active span{background-position:0 2px;}
+
+.external span {background-position:right 48%;}
+
+/*misc*/
+#home-rotator.loader{background-position: 557px 260px;}
+hr{height:2px;margin-top:0;}
+#site-topbar #shares-ticker li{background-position: 0 2px;}
+
+/*form*/
+.main #country-search .submit input,
+.sub #country-search .submit input{overflow:visible; /*dd*/}
+
+/*map*/
+#map .country{
+	display:inline;
+	zoom:1;
+	/*white-space:nowrap;*//*nojs*/
+}
+.jsEnabled #map .country .marker .button{padding: 6px 6px 8px;}
+
+body .equalheight .panel{height: auto;}
+
+/*home*/
+#home #tier-1{height:auto;}
+	#home #tier-1 .panel{min-height:149px;}
+#home #tier-2{height:auto;}
+	#home #tier-2 .panel{min-height:155px;}

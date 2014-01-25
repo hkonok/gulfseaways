@@ -1,0 +1,241 @@
+/*cache bg images*/
+html{filter:expression(document.execCommand("BackgroundImageCache", false, true));}
+
+/*min-height*/
+#page{height:738px}
+#footer{height:160px;}
+
+.panel{/*height: 1em;*/}
+.article,
+#downloadcentre-results .listing .article{height: 58px;}
+.main .span3 .cols2 .article,
+.main .span3 .\32 cols .article{height: 70px;}
+
+#site-topbar #shares-ticker{height: 1.5454em;}
+#page #rotator-controls{height: auto;}
+#map{height: 270px;}
+.listing .article{height:95px;}
+
+#site-nav .drop-down .col{height:87px;}
+#site-nav .drop-down .l4 .col{height:128px;}
+
+#ir-shareprice {height:6.1818em;}
+
+/*clearfix*/
+#header,
+#footer{height: 1%;}
+
+.panel .content,
+.gallery{zoom:1;}
+.tabbed-content dd{height:1%;}
+
+.country-list{height:1%;}
+.links{height: 1%;}
+.listing .item-detail,
+.contact-item{height: 1%;}
+.grid{height:1%;}
+
+#home-rotator ul,
+#home-rotator ul li,
+#hero-rotator ul,
+#hero-rotator ul li{height: 1%;}
+#map-nav{height: 1%;}
+#tag-container{height:1%;}
+
+#downloadcentre-results .listing .article,
+.branch-details .content,
+.branch-details .content ul,
+fieldset .file-feedback,
+#ir-shareprice li{height:1%;}
+
+/*haslayout*/
+#home .row{zoom:1;}
+
+.main .black .button,
+.sub .black .button,
+.button{height: 1%;}
+
+#site-breadcrumbs{zoom:1;}
+.tabbed-content{height: 1%;}
+.social-networks,.calendar-networks{zoom:1;}
+
+fieldset .field{height: 1%;}
+blockquote{zoom:1;}/*absolute positioning*/
+
+/*inline-block (Note:default block level elements only)*/
+#noscript p,
+.social-networks li, .calendar-networks li,
+#site-nav .nav li .social-networks li, #site-nav .nav li .calendar-networks li,
+#listed-articles .article{
+	zoom:1;
+	display:inline;
+}
+
+.pagination-nav li{
+	zoom:1;
+	display:inline;
+	margin-right:0;
+}
+.pagination-nav .index li,
+.content fieldset #form-carousel .viewport li{zoom: 1;display: inline;}
+.pagination .pagination-nav .index ul{zoom:1;}
+
+.inline .newListSelected,
+.main .inline .newListSelected,
+.sub .inline .newListSelected,
+.white .inline .newListSelected{zoom: 1;display: inline;}
+
+#opening-hours li{zoom: 1;display: inline;}
+
+/*floats - double margin*/
+#site-logo{display:inline;}
+.panel{display: inline;}
+.panel-links a{display: inline;}
+
+.social-networks a, .calendar-networks a,
+#site-nav .nav li .social-networks li a, #site-nav .nav li .calendar-networks li a{display:inline;}
+.listing .event-type li a {display:inline;}
+
+.gallery li{display: inline;}
+fieldset .checkbox,
+fieldset .radio{display:inline;}
+
+/*box model*/
+#site-logo{width:164px;padding: 0;}
+
+/*floats*/
+#site-search fieldset{float: left;}
+
+.social-networks a, .calendar-networks a,
+#site-nav .nav li .social-networks li a, #site-nav .nav li .calendar-networks li a{float:left;margin: 0 1px;}
+
+/*no png24*/
+#wrapper{background-image:none;}
+.nav * .selected{background-image:url('../../img/sprites/spr_active_nav.gif');}
+#site-nav .drop-down li.hover a{background-image: url("../../img/sprites/spr_active_nav.gif");}
+
+.jsEnabled #hero-rotator .slide-content{
+	background:#000 none;
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC201F25,endColorstr=#CC201F25);
+	zoom: 1;*/
+}
+
+/*alphaimageloader png24fix (Note: images that are positioned or repeated are not applicable)*/
+
+/*class chaining*/
+a.selected{background-position: -23px 0 !important;}
+#footer dt a.selected{background-position: -23px -46px !important;}
+
+/*border-color transparent*/
+.sub td{border-color: #FFF;}
+
+/*typography*/
+h2,
+.main .black h2,
+.sub .black h2,
+.main .black .faux-header,
+.sub .black .faux-header,
+.faux-header{position:relative;}
+
+h2 .toggle{margin-top: 0;}
+#footer .toggle{margin-top: -1px;}
+
+.cta,
+.links a{
+	background-position:right bottom;
+	display:inline-block;
+}
+	.grid li p .cta{float:left;}
+
+.external span{background-position:right bottom;}
+.rss span,
+.pdf span{background-position:0 -16px;}
+.rss:active span,
+.pdf:active span{background-position:0 2px;}
+
+.external span {background-position:right 49%;}
+
+/*video thumb */
+.video_thumb{width:168px;height:95px;}
+
+/*misc*/
+.tweets li a{/*word-wrap:break-word;*/}
+hr{height:2px;margin-top:0;}
+#site-topbar #shares-ticker li{background-position: 0 2px;}
+
+#site-logo a{display:block;padding:0;text-align:right;color:#FFF;}
+
+/*form*/
+fieldset .icn_audio label{padding-left:20px !important;}
+fieldset .file-feedback .last{overflow:visible;}
+fieldset .file-feedback a.blue{position:relative;}
+
+.main #country-search .submit input,
+.sub #country-search .submit input{overflow:visible; /*dd*/}
+
+/*About Us Sponsorship*/
+#aboutus-sponsorship #tier-1 .panel{height: 425px;}
+
+/*map*/
+#map-module{position:relative;white-space:nowrap;}
+	.jsEnabled #map-module {zoom:1;}
+	.jsEnabled #map-module{background: transparent url('../../img/sprites/ajax_loader.gif') 50% 50% no-repeat;}
+
+#map{
+	overflow:hidden;
+	width:538px;
+	padding-left:0;
+}
+	.jsEnabled #map{padding-left:538px;}
+
+#map .country{
+	display:inline;
+	zoom:1;
+	/*white-space:nowrap;*//*nojs*/
+}
+
+#map .country .marker{background-image: url('../../img/sprites/map_marker.gif');width:10px;height:10px;}
+
+#map .country .marker p{
+	background-image: url('../../img/sprites/map_marker_active.gif');
+	position: static;
+	padding-bottom: 0;
+}
+	.jsEnabled #map .country .marker p{position: absolute;padding-bottom: 9px;}
+
+#map .country .marker .button{
+	background: 0 none;
+	border: 0 none;
+	padding: 5px;
+}
+	.jsEnabled #map .country .marker .button{
+		background: #131313 url("../../img/backgrounds/bg_button_tile.gif") 0 0 repeat-x;
+		text-decoration:none;
+		border: 1px solid #363636;
+		border-bottom: 1px solid none;
+		padding: 6px 6px 8px;
+	}
+		#map .country .marker .button:hover{
+			background: #131313 url('../../img/backgrounds/bg_button_tile.gif') 0 0 repeat-x;
+			padding: 6px 6px 5px;
+		}
+		.jsEnabled #map .country .marker .button:hover{padding: 6px 6px 8px;}
+
+#map .country .marker .button{border-color:#363636;}
+#map .country .marker .button span{display:none;}
+	.jsEnabled #map .country .marker .button span{display:block;}
+#map .country .marker .button:hover span{display:block;}
+
+#map-nav li{width:88px;}
+	#map-nav li.selected{background-image: url('../../img/sprites/map_nav_active.gif');}
+
+#map-nav li a{display:inline;}
+
+#map .info{height:140px;}
+
+#regional-list ul{height:1%;}
+.jsEnabled .tabbed-content dt.selected a,
+.jsEnabled .tabbed-content dt.selected a span {float:left;}
+
+/*class chaining specificity*/
+.main .country-list .col{width:145px;}
